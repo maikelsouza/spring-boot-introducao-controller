@@ -8,6 +8,7 @@ class SpringBootIntroducaoControllerTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }
