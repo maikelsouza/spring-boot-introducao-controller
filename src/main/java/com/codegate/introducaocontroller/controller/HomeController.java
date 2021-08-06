@@ -9,7 +9,7 @@ public class HomeController {
 	
 	@RequestMapping("/")
 	public String homeApp(Model model) {
-		model.addAttribute("mensagem", "está foi uma mensagem injetada através do model");
+		model.addAttribute("mensagem", "está foi uma mensagem injetada através do model.");
 		return "index";
 	}
 
